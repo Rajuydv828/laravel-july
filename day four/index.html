@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .main {
+            margin: 50px;
+            background-color: whitesmoke;
+            width: 400px;
+            box-shadow: 3px 3px 10px;
+        }
+
+        .img-box {
+            width: 400px;
+            overflow: hidden;
+            object-fit: cover;
+            position: relative;
+
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            transition: 1s;
+            /* overflow: hidden; */
+        }
+
+        .img-box span {
+           
+            background-color: orangered;
+            color: white;
+            font-size: large;
+            padding: 4px 4px;
+            border-radius: 0px 20px 20px 0px;
+            top: 10px;
+            left: 0px;
+            position: absolute;
+            z-index: 10;
+        }
+
+        .img-box p {
+            background-color: white;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 5px ;
+            border-radius: 20px;
+            z-index: 10;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+        }
+        
+            
+       
+
+        .main:hover h1 {
+            color: orangered;
+        }
+
+        h1 {
+            margin: 20px;
+
+        }
+
+        .content-para {
+            margin: 20px;
+            color: rgb(125, 125, 125);
+        }
+
+        strong {
+
+            margin: 20px;
+            font-size: 25px;
+
+        }
+
+        .content-footer {
+            margin: 0px 20px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            padding: 10px 0px;
+            color: rgb(131, 132, 133);
+            font-size: large;
+
+        }
+
+        .price span {
+            color: green;
+            background: rgb(210, 246, 210);
+            font-size: large;
+            padding: 0px 5px;
+            border-radius: 5px;
+
+        }
+
+        .curriculum {
+            font-size: 16px;
+            margin-bottom: 10px;
+
+            padding: 0px 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: rgb(252, 228, 219);
+            color: orangered;
+            border-radius: 6px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+    <a href="">
+        <div class="main">
+            <div class="img-box">
+                <span>🎯Starts in 2 days</span>
+                <p>⭐ 5.0</p>
+
+                <img src="https://codeit.com.np/storage/course-featured/01KN8WNE7C32CM5FKJ8C0Y2DXY.webp" alt="cyber">
+            </div>
+            <div class="content">
+                <h1>Cyber Security</h1>
+                <p class="content-para">Comprehensive Cyber Security Course for Beginners - Learn Ethical Hacking &
+                    Network Protection</p>
+                <strong>Rs. 2,499</strong>
+                <div class="content-footer">
+                    <div class="price">
+                        <s>Rs. 35,000</s>
+                        <span>92% off</span>
+                    </div>
+
+                    <div class="curriculum">
+                        <p>Curriculum ➜</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </a>
+
+    
+
+    </section>
+</body>
+
+</html>

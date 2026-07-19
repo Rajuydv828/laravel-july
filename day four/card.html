@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        .card {
+            width: 500px;
+            box-shadow: 0px 0px 10px;
+            margin: 100px;
+        }
+
+        .card-img {
+            width: 500px;
+
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+
+            overflow: hidden;
+            object-fit: cover;
+            transition: 1s;
+
+        }
+
+        .card:hover img {
+            transform: scale(1.05);
+        }
+
+        .card-content {
+            padding: 10px;
+        }
+
+        .date {
+            color: rgb(38, 37, 37);
+        }
+
+        h1 {
+            font-size: larger;
+            color: black;
+        }
+
+        p {
+            color: rgb(121, 122, 123);
+        }
+
+        a {
+            color: orangered;
+            text-decoration: none;
+        }
+
+        .arrow {
+            display: inline-block;
+            /* Required for transform */
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover .arrow {
+            transform: translateX(6px);
+            /* Moves arrow to the right */
+        }
+    </style>
+
+</head>
+
+<body>
+    <section>
+
+
+        <a href="">
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://codeit.com.np/storage/01KNTSXENTDR6XAANEEA6MZ669.webp" alt="img">
+                </div>
+                <div class="card-content">
+                    <span class="date">🗓️ 10-Apr-2026</span>
+                    <h1>What after SEE? 15 Powerful Career Paths & IT Skills to Start Your Future Fast</h1>
+                    <p>If you’ve just completed your Secondary Education Examination (SEE), you might be asking
+                        yourself:
+                        What
+                        after SEE? This....</p>
+                    <a href="#">Read more <span class="arrow">➜</span></a>
+                </div>
+            </div>
+        </a>
+
+        
+
+    </section>
+</body>
+
+</html>
